@@ -1,0 +1,15 @@
+# security.txt file for https://gravitytechnologies.com/ - more info: https://securitytxt.org/
+# (required) Contact email address for security issues
+Contact: apps@serieseight.com
+
+# (required) Expiration date for the security information herein
+Expiration: 2026-07-18T21:05:32+01:00
+
+# (optional) OpenPGP key:
+Encryption: https://gravitytechnologies.com/pgp-key.txt
+
+# (optional) Security policy page:
+Policy: https://gravitytechnologies.com/security-policy
+
+# (optional) Security acknowledgements page:
+Acknowledgements: https://gravitytechnologies.com/hall-of-fame

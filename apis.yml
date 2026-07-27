@@ -1,8 +1,26 @@
 aid: gravity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gravity.png
 name: Gravity
-description: 'Gravity is a company surfaced as a portfolio company of gv, redpoint-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Gravity (Gravity Technologies) builds and deploys ultra-fast DC electric-vehicle
+  charging infrastructure for dense urban environments. Its Distributed Energy Access
+  Points (DEAPs) deliver up to five-minute charges from compact, modular hardware that
+  requires minimal real estate and no dedicated utility upgrade, letting operators
+  place high-power charging in garages, curbside, and fleet depots. The company was
+  surfaced as a portfolio company of GV and Redpoint Ventures and added to the API
+  Evangelist network for enrichment; it publishes no public developer portal, API,
+  or SDKs at this time, so this profile captures company identity and the domain
+  security surface rather than API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/gravity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Frontier Tech
+- Electric Vehicles
+- EV Charging
+- Energy
+- Charging Infrastructure
+- Mobility
+- Clean Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/gravity-vulnerability-disclosure.yml
+- type: Security
+  url: security/gravity-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/gravity-domain-security.yml
 - type: Website
-  url: https://gravitymobility.com
+  url: https://gravitytechnologies.com
+- type: TermsOfService
+  url: https://gravitytechnologies.com/terms-conditions
+- type: Support
+  url: https://gravitytechnologies.com/forms/contact
+- type: SecurityTxt
+  url: well-known/gravity-well-known.yml
+- type: WellKnown
+  url: well-known/gravity-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
